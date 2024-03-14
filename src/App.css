@@ -9,6 +9,44 @@
   color: white;
 }
 
+.App > :first-child {
+  width: 100%;
+  align-self : stretch;
+  }
+
+.navbar {
+  background-color: #333740;
+}
+.nav-link {
+  color: white;
+  transition: color 0.2s ;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.nav-full-width {
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* tooltip */
+
+.tooltip-inner {
+  background-color: #f0f0f0;
+  color: #282c34;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.hover-highlight {
+  background-color: #f8f9fa !important;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
